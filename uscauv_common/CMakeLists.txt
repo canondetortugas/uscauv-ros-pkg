@@ -9,6 +9,8 @@ find_package(catkin REQUIRED COMPONENTS roscpp tf cpp11 sensor_msgs cv_bridge im
 
 find_package(OpenCV REQUIRED)
 
+catkin_python_setup()
+
 include_directories(include ${catkin_INCLUDE_DIRS} ${OpenCV_INCLUDE_DIRS})
 
 # Set the build type.  Options are:

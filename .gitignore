@@ -16,3 +16,4 @@ srv_gen/
 *.log
 *.backup
 docs/
+*.pyc
