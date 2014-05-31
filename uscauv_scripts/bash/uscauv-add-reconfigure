@@ -127,7 +127,7 @@ gen = ParameterGenerator()
 # Valid types: bool_t, int_t, double_t, str_t
 
 #          Name        Type   Reconfiguration level             Description                         Default Min Max
-# gen.add( \"my_param\", int_t, SensorLevels.RECONFIGURE_RUNNING, \"My very own dynamical parameter.\", 10,     1,  100 )
+# gen.add( \"my_param\", int_t, SensorLevels.RECONFIGURE_RUNNING, \"My very own dynamic parameter.\", 10,     1,  100 )
 
 # Example enum:
 # size_enum = gen.enum([ gen.const(\"Small\", int_t, 0, \"A small constant\"),
